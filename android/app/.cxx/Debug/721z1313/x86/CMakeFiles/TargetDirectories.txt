@@ -1,0 +1,2 @@
+/Users/danielthierrymarcelin/dev/flutter-learning/mynotes/android/app/.cxx/Debug/721z1313/x86/CMakeFiles/edit_cache.dir
+/Users/danielthierrymarcelin/dev/flutter-learning/mynotes/android/app/.cxx/Debug/721z1313/x86/CMakeFiles/rebuild_cache.dir
