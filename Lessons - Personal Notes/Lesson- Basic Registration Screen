@@ -1,0 +1,32 @@
+Wrap with widget in Android Studio: Option + Enter
+
+
+Stateless VS Stateful Widgets
+
+WTF state? (Kind of similar to React useState hook)
+Basically state means DATA. STATEFUL widgets can contain mutable data that can be changed by the app
+or the user. These changes will force the widgets to be re-drawn on the screen.
+
+STATELESS widgets cannot contain mutable data. There a mainly use for decorative or informational
+purposes. A stateless widget can still be re-drawn but it is not is main usage.
+
+In a stateful widget, we have two important methods, initState and dispose. InitState is called when
+the widget is rendered on the screen and dispose is called when the widget is closed or to free
+resources used.
+
+LATE: Declare variable that will be initialized later
+____________________________________________________________________________________________________
+
+UI-
+SCAFFOLD: Usually used as the top widget to hold all the content, contains usually an appBar, and a
+body which may contain other widgets.
+
+COLUMN: As the name suggest, it's a container widget that vertically stacks the widgets within.
+
+FUTUREBUILDER: Is a widget mainly used for asynchronous calls. Primary parameters to provide are
+future (usually a link, or the task to complete) and builder (context, snapshot -> contains the
+state of the future [ok, completed, error...]).
+----------------------------------------------------------------------------------------------------
+Important Flutter docs links
+https://docs.flutter.dev/app-architecture/concepts -> Guide to build robust Flutter apps
+
