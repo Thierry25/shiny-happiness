@@ -1,0 +1,8 @@
+Reference Link -> https://docs.flutter.dev/cookbook/navigation/named-routes
+
+In flutter, there are two type of routes (Anonymous & Named routes)
+ANONYMOUS ROUTE : A link from a screen to another that flutter does not need to know prior. Just
+tell flutter go from this (screen) to another screen.
+
+NAMED ROUTE: A defined route for linking a screen to another. Need to be defined so Flutter knows
+about it.
