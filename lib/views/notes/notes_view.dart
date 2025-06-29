@@ -88,6 +88,12 @@ class _NotesViewState extends State<NotesView> {
                           onDeleteNote: (note) async {
                             await _notesService.deleteNote(noteId: note.id);
                           },
+                          onTap: (note) {
+                            Navigator.of(context).pushNamed(
+                              createOrUpdateNoteRoute,
+                              arguments: note,
+                            );
+                          },
                         );
                       } else {
                         return const CircularProgressIndicator();
