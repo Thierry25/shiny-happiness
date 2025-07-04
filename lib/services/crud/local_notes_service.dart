@@ -7,7 +7,7 @@ import 'package:path_provider/path_provider.dart'
     show getApplicationDocumentsDirectory, MissingPlatformDirectoryException;
 import 'package:path/path.dart' show join;
 
-import 'crud_exceptions.dart';
+import 'local_crud_exceptions.dart';
 
 // const variables
 const idColumn = 'id';
